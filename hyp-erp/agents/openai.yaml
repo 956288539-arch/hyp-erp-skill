@@ -1,0 +1,6 @@
+interface:
+  display_name: "霍普 ERP 助手"
+  short_description: "通过 Chrome 根据发票填写霍普项目差旅报销，核对后交由本人提交"
+  default_prompt: "使用 $hyp-erp 根据我提供的发票填写霍普 ERP 项目差旅报销，完成后提醒我检查并由我提交。"
+policy:
+  allow_implicit_invocation: true

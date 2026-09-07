@@ -1,0 +1,13 @@
+# Keep reimbursement evidence and account data out of the skill repository.
+private/
+invoices/
+output/
+outputs/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.zip
+__pycache__/
+*.pyc
