@@ -11,3 +11,8 @@ outputs/
 *.zip
 __pycache__/
 *.pyc
+# Per-user memory lives outside the repository; also exclude accidental copies.
+user-data/
+profiles/
+*.profile.json
+*.profile-patch.json

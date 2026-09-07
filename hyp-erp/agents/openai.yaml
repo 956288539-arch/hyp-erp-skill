@@ -1,6 +1,6 @@
 interface:
   display_name: "霍普 ERP 助手"
-  short_description: "从 QQ 邮箱归档票据，通过 BrowserOS Neo 填写霍普报销"
-  default_prompt: "使用 $hyp-erp 从 QQ 邮箱或我提供的文件夹整理本次差旅票据，填写霍普 ERP 报销，完成后提醒我检查并由我提交。"
+  short_description: "按用户记住常用资料，确认本次报销类型并填写霍普 ERP"
+  default_prompt: "使用 $hyp-erp 整理 QQ 邮箱或文件夹中的本次票据，核对我的个人资料并确认本次报销类型，填写霍普 ERP，完成后记住稳定资料并提醒我本人提交。"
 policy:
   allow_implicit_invocation: true
