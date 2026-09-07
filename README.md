@@ -14,9 +14,11 @@
 
 ## 安装
 
-1. 安装并连接 BrowserOS Neo，确保 Codex 可以使用它的 MCP 工具及 `browseros-neo` skill。
-2. 将本仓库的 `hyp-erp` 文件夹复制到 `~/.codex/skills/`。
-3. 在 [SKILL.md](hyp-erp/SKILL.md) 中查看并设置归档根目录、归属公司和收款人；仓库当前保留作者的个人默认值。
+1. 将本仓库的 `hyp-erp` 文件夹复制到 `~/.codex/skills/`。
+2. 在 [SKILL.md](hyp-erp/SKILL.md) 中查看并设置归档根目录、归属公司和收款人；仓库当前保留作者的个人默认值。
+3. 首次网页操作会检查 BrowserOS Neo。未安装时，助手先询问；你明确同意后，它会从官方渠道下载、安装、配置 Codex 连接并验证页面可用。已安装时复用现有环境，连接异常先排查。拒绝安装或尚未答复时，仍可整理已有本地票据。
+
+详细部署见 [BrowserOS Neo 安装与连接](hyp-erp/references/browseros-setup.md)。系统授权弹窗及网站密码、扫码、验证码由用户在本机界面完成。安装指引已核对官方来源，全新机器上的安装流程尚未实测。
 
 详细操作见 [QQ 邮箱取票与归档](hyp-erp/references/qq-invoices.md) 和 [项目差旅报销流程](hyp-erp/references/travel-reimbursement.md)。
 
