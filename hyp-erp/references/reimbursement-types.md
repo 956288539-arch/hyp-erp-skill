@@ -29,13 +29,13 @@
 
 ## 已核实的入口与后续流程
 
-2026-09-07 在 ERP 实际打开并核对过以下标题。图片只作为定位线索；每次结合当前 DOM、截图与打开后的标题验证，不能保存当时的动态 ref 或固定屏幕坐标。
+2026-09-07/08 在 ERP 实际打开并核对过以下标题。图片只作为定位线索；每次结合当前 DOM、截图与打开后的标题验证，不能保存当时的动态 ref 或固定屏幕坐标。确认类型后必须读取对应完整流程，不将另外三类转交项目差旅流程处理。
 
 | 弹窗标题 | 当时入口图片 | 填写指引 |
 | --- | --- | --- |
-| 项目日常报销 | `/images/process/2.jpg` | [其他报销表单](other-reimbursements.md)中的日常流程，按项目归属。 |
-| 普通日常报销 | `/images/process/1.jpg` | [其他报销表单](other-reimbursements.md)中的日常流程，按部门及费用类型归属。 |
+| 项目日常报销 | `/images/process/2.jpg` | [项目日常报销](project-daily-reimbursement.md)：科目/选项与项目在同一明细行。 |
+| 普通日常报销 | `/images/process/1.jpg` | [普通日常报销](ordinary-daily-reimbursement.md)：主表费用类型，明细承担部门。 |
 | 项目差旅报销 | `/images/process/4.jpg` | [项目差旅报销](travel-reimbursement.md)。 |
-| 普通差旅报销 | `/images/process/3.jpg` | [其他报销表单](other-reimbursements.md)中的普通差旅流程。 |
+| 普通差旅报销 | `/images/process/3.jpg` | [普通差旅报销](ordinary-travel-reimbursement.md)：先检查自动部门分拆，再修改或新增。 |
 
 入口不存在或名称变化时，以当前页面查找并说明实际差异；不能替用户换到另一个可见类型。报销类型只记录在当次任务资料，个人记忆脚本不接受此字段。
